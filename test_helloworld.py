@@ -7,5 +7,5 @@ def hello_world():
     return 'hello world'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=8080)
 # docker run -p 5000:5000 myflaskapp
